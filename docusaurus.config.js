@@ -83,7 +83,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Miller Consulting Specialist Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -95,7 +95,12 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://simontheteemo.github.io/mcs/',
+            label: 'Featured Projects',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/simontheteemo',
             label: 'GitHub',
             position: 'right',
           },
