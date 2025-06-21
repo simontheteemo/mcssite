@@ -2,46 +2,50 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Project Timeline
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Work Experience
 
-## Getting Started
+Welcome to my professional journey as a Software Engineer specializing in cloud-native solutions and full-stack development.
 
-Get started by **creating a new site**.
+## Overview
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+With extensive experience across AWS services, .NET technologies, and modern web development, I've contributed to various industries from fintech to retail, working on everything from payment integrations to broadband provisioning systems.
 
-### What you'll need
+## Tech Stack Expertise
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Cloud & Infrastructure:**
+- AWS Lambda, API Gateway, Cognito, Step Functions, SNS, SQS, EventBridge
+- DynamoDB, S3, IAM, SSM, AWS Glue (ETL)
+- Terraform, Serverless Framework, CloudFormation, LocalStack
 
-## Generate a new site
+**Backend Development:**
+- .NET Core, ASP.NET, MVC, Entity Framework Core, Dapper
+- Microsoft SQL Server, Azure services
+- Node.js, TypeScript, Express.js, Prisma.io, PostgreSQL
+- Python, Django
 
-Generate a new Docusaurus site using the **classic template**.
+**Frontend Development:**
+- React/Redux, Next.js
+- TypeScript, modern JavaScript
 
-The classic template will automatically be added to your project after you run the command:
+**DevOps & Testing:**
+- Docker, GitHub Actions/Pages, Bamboo, TeamCity
+- Unit testing, Integration testing, Synthetic Monitoring
+- Heroku, Vercel deployment platforms
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Career Highlights
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- **Contract Software Engineer at Xero** (2023-2025): Led US payment integrations and tax return extraction projects
+- **Contract Software Engineer at Mercury NZ** (2021-2023): Delivered broadband integration and digital experience solutions
+- **Full Stack Developer at Fashion Biz** (2017-2021): Rebuilt product management systems and e-commerce platforms
+- **Developer at Unify Digital** (2015-2017): Developed cloud auction systems
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Work Experience Details
 
-## Start your site
+Click on any of the companies below to learn more about specific projects and achievements:
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [Xero - Contract Software Engineer](./xero.md) (April 2024 - May 2025 & Oct 2023 - March 2024)
+- [Mercury NZ - Contract Software Engineer](./mercury-nz.md) (Sep 2021 - Oct 2023)
+- [Fashion Biz - Full Stack Developer](./fashion-biz.md) (Oct 2017 - Sep 2021)
+- [Unify Digital - Developer](./unify-digital.md) (Oct 2015 - Oct 2017)
