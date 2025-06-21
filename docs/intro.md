@@ -46,6 +46,6 @@ With extensive experience across AWS services, .NET technologies, and modern web
 Click on any of the companies below to learn more about specific projects and achievements:
 
 - [Xero - Contract Software Engineer](./xero.md) (April 2024 - May 2025 & Oct 2023 - March 2024)
-- [Mercury NZ - Contract Software Engineer](./mercury-nz.md) (Sep 2021 - Oct 2023)
-- [Fashion Biz - Full Stack Developer](./fashion-biz.md) (Oct 2017 - Sep 2021)
-- [Unify Digital - Developer](./unify-digital.md) (Oct 2015 - Oct 2017)
+- [Mercury NZ - Contract Software Engineer](./mercury.md) (Sep 2021 - Oct 2023)
+- [Fashion Biz - Full Stack Developer](./fashion_biz.md) (Oct 2017 - Sep 2021)
+- [Unify Digital - Developer](./unify_digital.md) (Oct 2015 - Oct 2017)
