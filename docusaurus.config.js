@@ -91,9 +91,14 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://simontheteemo.github.io/Movie2U/',
+            label: 'Movie2U 🚀',
+            position: 'left',
+          },
+          {
             href: 'https://simontheteemo.github.io/mcs/',
             label: 'Featured Projects',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/simontheteemo',

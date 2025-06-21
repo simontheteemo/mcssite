@@ -6,7 +6,7 @@ sidebar_position: 2
 # Xero - Contract Software Engineer
 
 **Duration:** April 2024 - May 2025 & Oct 2023 - March 2024  
-**Location:** New Zealand
+**Location:** Australia, New Zealand
 
 ## Overview
 
