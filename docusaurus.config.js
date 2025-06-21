@@ -89,7 +89,7 @@ const config = {
             position: 'left',
             label: 'Time line',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/aboutus', label: 'About us', position: 'left'},
           {
             href: 'https://simontheteemo.github.io/Movie2U/',
             label: 'Movie2U 🚀',
@@ -98,11 +98,6 @@ const config = {
           {
             href: 'https://simontheteemo.github.io/mcs/',
             label: 'Featured Projects',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/simontheteemo',
-            label: 'GitHub',
             position: 'right',
           },
         ],
