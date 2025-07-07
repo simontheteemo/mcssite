@@ -84,4 +84,8 @@ Vala brings complementary expertise and strategic vision to our leadership team,
 
 Ready to discuss your next project? We'd love to hear about your challenges and explore how we can help drive your business forward with innovative technology solutions.
 
-[Contact us today to start the conversation. info.millercc@gmail.com]
+Contact us today to start the conversation.
+
+info.millercc@gmail.com
+
+110 Carlton Gore RoadNewmarket, Auckland 1023
