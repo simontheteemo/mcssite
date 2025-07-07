@@ -41,6 +41,40 @@ const config = {
     locales: ['en'],
   },
 
+  headTags: [
+    // Preconnect for performance
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    // JSON-LD structured data
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org/',
+        '@type': 'Organization',
+        name: 'Miller Consulting Specialist',
+        url: 'https://millerit.co.nz',
+        logo: 'https://millerit.co.nz/img/logo.svg',
+        description: 'Miller Consulting Specialist is a consulting company that provides IT services to businesses in Auckland, New Zealand.',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Auckland',
+          addressCountry: 'NZ',
+        },
+        sameAs: [
+          'https://github.com/simontheteemo',
+        ],
+      }),
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -74,8 +108,49 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // SEO metadata
+      metadata: [
+        {
+          name: 'keywords',
+          content: 'Miller Consulting Specialist, MillerIT, IT, Consulting, Specialist, Auckland, New Zealand',
+        },
+        {
+          name: 'description',
+          content: 'Miller Consulting Specialist is a consulting company that provides IT services to businesses in Auckland, New Zealand.',
+        },
+        // Add Twitter Card meta tags
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        {
+          name: 'twitter:title',
+          content: 'Miller Consulting Specialist - IT Services Auckland',
+        },
+        {
+          name: 'twitter:description',
+          content: 'Professional IT consulting services in Auckland, New Zealand. 10+ years of experience.',
+        },
+        // Open Graph meta tags
+        {
+          property: 'og:title',
+          content: 'Miller Consulting Specialist - IT Services Auckland',
+        },
+        {
+          property: 'og:description',
+          content: 'Professional IT consulting services in Auckland, New Zealand. 10+ years of experience.',
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:url',
+          content: 'https://millerit.co.nz',
+        },
+      ],
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.svg',
       navbar: {
         title: '',
         logo: {
