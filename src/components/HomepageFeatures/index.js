@@ -63,6 +63,35 @@ const FeatureList = [
     ),
   },
   {
+    title: "📊 Data Engineering",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    description: (
+      <>
+        <h4>Data Pipeline Development</h4>
+        <small>
+          Build robust, scalable data pipelines that efficiently process and
+          transform your data. We design ETL/ELT workflows using modern tools
+          like Apache Spark, Airflow, and cloud-native services.{" "}
+        </small>
+        <br />
+        <h4>Data Warehouse & Analytics</h4>
+        <small>
+          Design and implement data warehouses and analytics platforms that
+          provide actionable insights. From data modeling to visualization,
+          we help you make data-driven decisions.{" "}
+        </small>
+        <br />
+        <h4>Real-time Data Processing</h4>
+        <small>
+          Stream processing and real-time analytics solutions for time-sensitive
+          business operations. We implement solutions using Kafka, Flink, and
+          other streaming technologies.{" "}
+        </small>
+        <br />
+      </>
+    ),
+  },
+  {
     title: "🎯 Industry Expertise",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
@@ -94,7 +123,7 @@ const FeatureList = [
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--12 col--md-6 col--lg-3")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

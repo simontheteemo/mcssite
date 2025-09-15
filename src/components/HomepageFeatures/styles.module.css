@@ -6,6 +6,28 @@
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .features {
+    padding: 1rem 0;
+  }
+  
+  .featureSvg {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Desktop optimization */
+@media screen and (min-width: 997px) {
+  .featureSvg {
+    height: 180px;
+    width: 180px;
+  }
 }
