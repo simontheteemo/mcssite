@@ -5,6 +5,9 @@
 
 .features .col {
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .featureSvg {
@@ -13,10 +16,14 @@
   margin-bottom: 1rem;
 }
 
-/* Mobile responsiveness */
+/* Mobile responsiveness - waterfall layout */
 @media screen and (max-width: 768px) {
   .features {
     padding: 1rem 0;
+  }
+  
+  .features .col {
+    margin-bottom: 1.5rem;
   }
   
   .featureSvg {
@@ -26,10 +33,22 @@
   }
 }
 
-/* Desktop optimization */
+/* Desktop optimization - force single row */
 @media screen and (min-width: 997px) {
+  .features .row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+  
+  .features .col {
+    flex: 1;
+    margin-bottom: 0;
+    min-height: 100%;
+  }
+  
   .featureSvg {
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
   }
 }
