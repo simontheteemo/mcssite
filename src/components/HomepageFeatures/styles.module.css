@@ -5,7 +5,7 @@
 
 .featureCard {
   text-align: center;
-  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .featureSvg {
@@ -21,12 +21,12 @@
   }
   
   .features .row {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   
   .featureCard {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 2rem;
   }
   
@@ -39,13 +39,20 @@
 /* Desktop - Single row layout */
 @media screen and (min-width: 768px) {
   .features .row {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
   }
   
   .featureCard {
-    margin-bottom: 0;
+    flex: 1 !important;
+    margin-bottom: 0 !important;
+    margin-right: 1rem !important;
+  }
+  
+  .featureCard:last-child {
+    margin-right: 0 !important;
   }
   
   .featureSvg {
